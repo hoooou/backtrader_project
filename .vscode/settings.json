@@ -1,0 +1,39 @@
+{
+    "commentTranslate.hover.string": true,
+    "commentTranslate.hover.variable": false,
+    "commentTranslate.targetLanguage": "zh-CN",
+    "commentTranslate.browse.enabled": false,
+    "commentTranslate.sourceLanguage": "en",
+    "python.analysis.extraPaths": ["./sources",".conda/Lib/site-packages"],
+    "python.autoComplete.extraPaths": [".conda/Lib/site-packages"],
+
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "sklearn",
+            "depth": 2
+        },
+        {
+            "name": "matplotlib",
+            "depth": 2
+        },
+        {
+            "name": "scipy",
+            "depth": 2
+        },
+        {
+            "name": "django",
+            "depth": 2
+        },
+        {
+            "name": "flask",
+            "depth": 2
+        },
+        {
+            "name": "fastapi",
+            "depth": 2
+        }
+    ],
+    "files.associations": {
+        "xstring": "cpp"
+    },
+}
